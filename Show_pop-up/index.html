@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модальное окно. Попап.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <header id="header" class="header lock-padding">
+        <div class="header__container _container">
+            <a href="" class="header__logo"></a>
+            <a href="#popup" class="header__phone popup-link">Попап №1</a>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content__conteiner _conteiner">
+            <section class="content__section content__section_row">
+                <div class="content__body">
+                    <h1 class="content__title">Только вперед!</h1>
+                    <div class="content__text">
+                        <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                        <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                        <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    </div>
+                </div>
+                <a href="#image" class="content__image popup-link">
+                    <img src="img/image.jpg" alt="">
+                </a>
+            </section>
+            <section class="content__section">
+                <h2 class="content__subtitle">Живи, а работай в свободное время!</h2>
+                 <div class="content__text">
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    <p><a class="popup-link" href="#popup_2">Попап №2</a>Vortex best campaign in the world</p>
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                    <p>Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world Vortex best campaign in the world</p>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<div id="popup" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#header" class="popup__close close-popup">X</a>
+            <div class="popup__title">Модальное окно №1</div>
+            <div class="popup__text">
+                <a class="popup-link" href="#popup_2">Попап №2</a> Vortex best campaign in the worlddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+            </div>
+        </div>
+    </div>
+</div>
+<div id="popup_2" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#header" class="popup__close close-popup">X</a>
+            <div class="popup__title">Модальное окно №2</div>
+            <div class="popup__text">
+                 Vortex best campaign in the worlddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+            </div>
+        </div>
+    </div>
+</div>
+<div id="image" class="popup">
+    <div class="popup__body">
+        <div class="popup__content popup__content_image">
+            <a href="#header" class="popup__close close-popup">X</a>
+            <div class="popup__image">
+                <img src="/img/image.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="popup.js"></script>    
+</body>
+</html>
